@@ -1,0 +1,52 @@
+h1{
+    background-color: rgb(104, 22, 22);
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+/* 2) Pseudo classes (:)*/
+h1:hover{
+    color: rgb(0, 255, 34);
+    background-color: black;
+
+}
+p:hover{
+color: greenyellow;
+background-color: black;
+}
+
+.inp:focus{
+    background-color: aquamarine;
+}
+/* h.w= usage of focus */
+
+.sub:active{
+    background-color: chartreuse;
+}
+a:visited{
+    background-color: red;
+}
+a:link{
+    background-color: rgb(0, 208, 255);
+}
+#back:visited{
+    background-color: rgb(0, 170, 255);
+}
+#back:link{
+    background-color: rgb(255, 240, 23);
+}
+.container p:nth-child(2n+1){
+    background-color: firebrick;
+    color: #ffffff;
+}
+input:focus{
+  outline: 2px solid green;
+  background-color: rgb(194, 48, 48);
+}
+
+input:valid{
+  background-color: greenyellow;
+}
+
+input:invalid{
+  background-color: red;   
+}
